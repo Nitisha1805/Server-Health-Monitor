@@ -57,7 +57,9 @@ Update the following values inside `server_monitor.py`:
 - Threshold values
 - Check interval
 
-Example:
+## Testing Email Alerts
+
+### Default Threshold Values
 
 ```python
 CPU_THRESHOLD = 90
@@ -66,15 +68,20 @@ DISK_THRESHOLD = 90
 
 CHECK_INTERVAL = 60
 ```
+
+### Testing Scenario
+
+To verify email alerts, threshold values were temporarily reduced:
+
 ```python
-Case-2   
-    Changing threshold so email alerts work
 CPU_THRESHOLD = 20
 MEMORY_THRESHOLD = 80
 DISK_THRESHOLD = 80
 
 CHECK_INTERVAL = 60
 ```
+
+This helped test whether email alerts were triggered correctly when resource usage exceeded limits.
 
 ## Screenshots
 
