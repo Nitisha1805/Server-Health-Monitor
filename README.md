@@ -32,7 +32,7 @@ Server-Health-Monitor/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/Server-Health-Monitor.git
+git clone https://github.com/Nitisha1805/Server-Health-Monitor.git
 ```
 
 2. Install dependencies
@@ -67,10 +67,10 @@ DISK_THRESHOLD = 90
 CHECK_INTERVAL = 60
 ```
 ```python
-Case-2 
-CPU_THRESHOLD = 90
-MEMORY_THRESHOLD = 90
-DISK_THRESHOLD = 90
+Case-2   Changing threshold so email alerts work
+CPU_THRESHOLD = 20
+MEMORY_THRESHOLD = 80
+DISK_THRESHOLD = 80
 
 CHECK_INTERVAL = 60
 ```

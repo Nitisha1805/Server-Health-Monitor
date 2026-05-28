@@ -6,7 +6,7 @@ import time
 
 # ---------------- SETTINGS ---------------- #
 
-CPU_THRESHOLD = 90
+CPU_THRESHOLD = 20
 MEMORY_THRESHOLD = 90
 DISK_THRESHOLD = 90
 
