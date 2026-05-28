@@ -68,7 +68,7 @@ CHECK_INTERVAL = 60
 ```
 ```python
 Case-2   
-Changing threshold so email alerts work
+    Changing threshold so email alerts work
 CPU_THRESHOLD = 20
 MEMORY_THRESHOLD = 80
 DISK_THRESHOLD = 80
